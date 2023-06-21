@@ -22,7 +22,7 @@ const transporter = nodemailer.createTransport({
     user: "agentshrapnelcsgo@gmail.com",
     clientId: client_id,
     clientSecret: client_secret,
-    refreshToken: "", // Placeholder for the generated refresh token
+    refreshToken: "", 
     accessToken: "",
   },
 });
